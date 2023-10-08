@@ -1,0 +1,23 @@
+{
+  "name": "mark58-cypress-api",
+  "version": "1.0.0",
+  "description": "Projeto de teste API do Mark85",
+  "main": "npx cypress run",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "mark85",
+    "mongodb",
+    "rabbimq"
+  ],
+  "author": "Erik Paiva",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "12.12.0",
+    "cypress-plugin-api": "^2.11.1",
+    "mongodb": "^5.8.1"
+  }
+}
